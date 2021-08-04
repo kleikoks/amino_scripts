@@ -172,3 +172,12 @@ New version of Amino.py available: 2.0.2 (Using 1.2.17)
 New version of Amino.py available: 2.0.2 (Using 1.2.17)
 [2021-08-04 07:35:20,458: WARNING/ForkPoolWorker-2] COIN ENDED
 [2021-08-04 07:35:20,501: INFO/ForkPoolWorker-2] Task tasks.sendcoin[99df5ac8-ef8e-43fd-a81e-694efacaa82d] succeeded in 920.4022305319959s: None
+[2021-08-04 08:20:00,078: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-04 08:20:00,128: INFO/MainProcess] Task tasks.sendcoin[5c46ecf8-8d4d-4a0d-b658-87a123d630bd] received
+[2021-08-04 08:20:00,170: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 08:22:36,485: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-04 08:22:36,487: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 08:35:21,279: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-04 08:35:21,281: INFO/ForkPoolWorker-2] Task tasks.sendcoin[5c46ecf8-8d4d-4a0d-b658-87a123d630bd] succeeded in 921.1139052569924s: None

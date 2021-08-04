@@ -45,8 +45,8 @@ def log(cli: Client, email: str, password: str):
 def task(sub: SubClient, email: str, i: int):
     try:
         sendobj(sub)
-    except Exception as e:
-        logger.critical('Task Exception %s', e)
+    except:
+        pass
 
 def threadit(email: str, device: str, password: str):
     client = Client(deviceId=device)
