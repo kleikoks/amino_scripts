@@ -1,0 +1,174 @@
+ 
+ -------------- celery@localhost v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-80-generic-x86_64-with-glibc2.29 2021-08-03 18:09:23
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         tasks:0x7fb2fb464f40
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . tasks.sendcoin
+
+[2021-08-03 18:09:23,777: INFO/Beat] beat: Starting...
+[2021-08-03 18:09:23,808: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2021-08-03 18:09:23,818: INFO/MainProcess] mingle: searching for neighbors
+[2021-08-03 18:09:24,837: INFO/MainProcess] mingle: all alone
+[2021-08-03 18:09:24,849: INFO/MainProcess] celery@localhost ready.
+[2021-08-03 18:20:00,013: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-03 18:20:00,023: INFO/MainProcess] Task tasks.sendcoin[72f35251-489f-4ee9-87b8-2ddd865079c7] received
+[2021-08-03 18:20:00,024: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-03 18:22:10,531: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-03 18:22:10,531: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-03 18:31:09,048: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-03 18:31:09,048: INFO/ForkPoolWorker-2] Task tasks.sendcoin[72f35251-489f-4ee9-87b8-2ddd865079c7] succeeded in 669.0240634210058s: None
+[2021-08-03 19:20:00,079: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-03 19:20:00,083: INFO/MainProcess] Task tasks.sendcoin[c6f86e3f-3623-471d-8ee6-d70b80d73efa] received
+[2021-08-03 19:20:00,084: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-03 19:22:29,499: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-03 19:22:29,503: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-03 19:34:52,791: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-03 19:34:52,793: INFO/ForkPoolWorker-2] Task tasks.sendcoin[c6f86e3f-3623-471d-8ee6-d70b80d73efa] succeeded in 892.7092239400081s: None
+[2021-08-03 20:20:00,001: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-03 20:20:00,007: INFO/MainProcess] Task tasks.sendcoin[cd5346c5-733b-4b6e-ab66-bf7a336cb5ac] received
+[2021-08-03 20:20:00,009: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-03 20:22:21,144: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-03 20:22:21,146: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-03 20:34:17,691: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-03 20:34:17,694: INFO/ForkPoolWorker-2] Task tasks.sendcoin[cd5346c5-733b-4b6e-ab66-bf7a336cb5ac] succeeded in 857.6852821039938s: None
+[2021-08-03 21:20:00,001: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-03 21:20:00,005: INFO/MainProcess] Task tasks.sendcoin[285debaf-62cb-4c69-afb6-fba8d69750a6] received
+[2021-08-03 21:20:00,007: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-03 21:22:14,908: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-03 21:22:14,909: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-03 21:34:48,759: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-03 21:34:48,761: INFO/ForkPoolWorker-2] Task tasks.sendcoin[285debaf-62cb-4c69-afb6-fba8d69750a6] succeeded in 888.7543723909912s: None
+[2021-08-03 22:20:00,072: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-03 22:20:00,077: INFO/MainProcess] Task tasks.sendcoin[cc19e754-4536-40d8-9d16-be61ce3d2306] received
+[2021-08-03 22:20:00,080: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-03 22:22:18,993: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-03 22:22:18,996: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-03 22:34:50,812: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-03 22:34:50,817: INFO/ForkPoolWorker-2] Task tasks.sendcoin[cc19e754-4536-40d8-9d16-be61ce3d2306] succeeded in 890.7367399149953s: None
+
+worker: Warm shutdown (MainProcess)
+[2021-08-03 22:36:18,083: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@localhost v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-80-generic-x86_64-with-glibc2.29 2021-08-03 22:36:20
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         tasks:0x7f68b80e1f40
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . tasks.sendcoin
+
+[2021-08-03 22:36:20,644: INFO/Beat] beat: Starting...
+[2021-08-03 22:36:20,658: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2021-08-03 22:36:20,672: INFO/MainProcess] mingle: searching for neighbors
+[2021-08-03 22:36:21,695: INFO/MainProcess] mingle: all alone
+[2021-08-03 22:36:21,712: INFO/MainProcess] celery@localhost ready.
+[2021-08-03 23:20:00,068: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-03 23:20:00,076: INFO/MainProcess] Task tasks.sendcoin[56cae6f0-4e4f-4b76-9f3f-da9ff346ea6a] received
+[2021-08-03 23:20:00,078: INFO/ForkPoolWorker-2] Task tasks.sendcoin[56cae6f0-4e4f-4b76-9f3f-da9ff346ea6a] succeeded in 0.00022995300241746008s: None
+[2021-08-04 00:20:00,075: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-04 00:20:00,078: INFO/MainProcess] Task tasks.sendcoin[8eaddeb7-2e68-42d0-bc16-2e13e066e13d] received
+[2021-08-04 00:20:00,079: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 00:22:23,165: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-04 00:22:23,167: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 00:34:55,728: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-04 00:34:55,730: INFO/ForkPoolWorker-2] Task tasks.sendcoin[8eaddeb7-2e68-42d0-bc16-2e13e066e13d] succeeded in 895.6510624399962s: None
+[2021-08-04 01:20:00,051: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-04 01:20:00,053: INFO/MainProcess] Task tasks.sendcoin[45f38675-be85-4f65-b34a-91ede3acf070] received
+[2021-08-04 01:20:00,054: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 01:22:26,561: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-04 01:22:26,561: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 01:35:01,893: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-04 01:35:01,894: INFO/ForkPoolWorker-2] Task tasks.sendcoin[45f38675-be85-4f65-b34a-91ede3acf070] succeeded in 901.8400163059996s: None
+[2021-08-04 02:20:00,091: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-04 02:20:00,093: INFO/MainProcess] Task tasks.sendcoin[c26c83dc-1eb0-491a-9ca4-848a23685354] received
+[2021-08-04 02:20:00,094: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 02:22:25,179: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-04 02:22:25,179: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 02:34:53,572: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-04 02:34:53,573: INFO/ForkPoolWorker-2] Task tasks.sendcoin[c26c83dc-1eb0-491a-9ca4-848a23685354] succeeded in 893.478742487001s: None
+[2021-08-04 03:20:00,055: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-04 03:20:00,057: INFO/MainProcess] Task tasks.sendcoin[1f72b197-b745-4679-b64a-b0816005564e] received
+[2021-08-04 03:20:00,057: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 03:22:20,651: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-04 03:22:20,651: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 03:34:54,739: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-04 03:34:54,740: INFO/ForkPoolWorker-2] Task tasks.sendcoin[1f72b197-b745-4679-b64a-b0816005564e] succeeded in 894.6825269279943s: None
+[2021-08-04 04:00:00,000: INFO/Beat] Scheduler: Sending due task celery.backend_cleanup (celery.backend_cleanup)
+[2021-08-04 04:00:00,001: INFO/MainProcess] Task celery.backend_cleanup[86d92eb3-c6a7-484a-b401-b2911b3e8417] received
+[2021-08-04 04:00:00,002: INFO/ForkPoolWorker-2] Task celery.backend_cleanup[86d92eb3-c6a7-484a-b401-b2911b3e8417] succeeded in 8.695099677424878e-05s: None
+[2021-08-04 04:20:00,080: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-04 04:20:00,082: INFO/MainProcess] Task tasks.sendcoin[3dc57746-0300-4f37-b92c-47842bc01d7a] received
+[2021-08-04 04:20:00,083: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 04:22:20,535: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-04 04:22:20,536: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 04:34:53,557: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-04 04:34:53,558: INFO/ForkPoolWorker-2] Task tasks.sendcoin[3dc57746-0300-4f37-b92c-47842bc01d7a] succeeded in 893.4750652899966s: None
+[2021-08-04 05:20:00,047: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-04 05:20:00,048: INFO/MainProcess] Task tasks.sendcoin[becb588f-8b48-4815-b3c1-e6762cacfc76] received
+[2021-08-04 05:20:00,049: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 05:22:26,540: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-04 05:22:26,541: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 05:35:05,469: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-04 05:35:05,470: INFO/ForkPoolWorker-2] Task tasks.sendcoin[becb588f-8b48-4815-b3c1-e6762cacfc76] succeeded in 905.420547946007s: None
+[2021-08-04 06:20:00,035: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-04 06:20:00,038: INFO/MainProcess] Task tasks.sendcoin[090a29a7-d8a9-4823-b795-2f7e8f9baa24] received
+[2021-08-04 06:20:00,039: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 06:22:31,564: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-04 06:22:31,564: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 06:35:03,316: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-04 06:35:03,316: INFO/ForkPoolWorker-2] Task tasks.sendcoin[090a29a7-d8a9-4823-b795-2f7e8f9baa24] succeeded in 903.2770448730007s: None
+[2021-08-04 07:20:00,091: INFO/Beat] Scheduler: Sending due task tasks.sendcoin() (tasks.sendcoin)
+[2021-08-04 07:20:00,095: INFO/MainProcess] Task tasks.sendcoin[99df5ac8-ef8e-43fd-a81e-694efacaa82d] received
+[2021-08-04 07:20:00,096: WARNING/ForkPoolWorker-2] SENDCOIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 07:22:24,046: WARNING/ForkPoolWorker-2] SENDCOIN ENDED
+[2021-08-04 07:22:24,047: WARNING/ForkPoolWorker-2] COIN STARTED
+New version of Amino.py available: 2.0.2 (Using 1.2.17)
+[2021-08-04 07:35:20,458: WARNING/ForkPoolWorker-2] COIN ENDED
+[2021-08-04 07:35:20,501: INFO/ForkPoolWorker-2] Task tasks.sendcoin[99df5ac8-ef8e-43fd-a81e-694efacaa82d] succeeded in 920.4022305319959s: None

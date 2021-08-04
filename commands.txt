@@ -1,0 +1,28 @@
+sudo nano /etc/supervisor/conf.d/amino_scripts.conf
+sudo rm /etc/supervisor/conf.d/amino_scripts.conf
+sudo supervisord
+sudo supervisorctl restart
+sudo unlink /var/run/supervisor.sock
+sudo rm /etc/supervisor/conf.d/amino_celery.conf
+
+
+ sudo supervisorctl stop all
+ sudo supervisorctl clear all
+ sudo supervisorctl reload
+ sudo supervisorctl reread
+
+
+
+sudo supervisorctl status
+sudo supervisorctl stop amino_scripts
+yes | celery -A tasks purge
+sudo supervisorctl start amino_scripts
+
+
+
+ps -fLu kleikoks | wc -l
+ulimit -u
+ulimit -aS
+sudo nano /etc/security/limits.conf
+sudo nano /proc/sys/kernel/threads-max
+    kleikoks soft nproc unlimited   
